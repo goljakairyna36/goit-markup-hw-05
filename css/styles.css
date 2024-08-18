@@ -647,7 +647,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     padding-left: 38px;
     outline: transparent;
     background-color: transparent;
-    transform: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:hover,
@@ -685,7 +685,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     padding: 8px 16px;;
     outline: transparent;
     resize: none;
-    margin-bottom: 16px;
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
